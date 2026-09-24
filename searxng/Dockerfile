@@ -1,4 +1,4 @@
-FROM docker.io/searxng/searxng:latest
+FROM ghcr.io/searxng/searxng:latest
 
 # Copy static settings that enable JSON format (used by upstream entrypoint)
 COPY settings.yml /etc/searxng/settings.yml
