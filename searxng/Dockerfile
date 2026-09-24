@@ -5,6 +5,7 @@ COPY settings.yml /etc/searxng/settings.yml
 ENV SEARXNG_SETTINGS_PATH=/etc/searxng/settings.yml
 
 # SearXNG listens on 8787 internally
+ENV GRANIAN_PORT=8787
 EXPOSE 8787
 
 # Use the base image's default entrypoint; our settings.yml is referenced via SEARXNG_SETTINGS_PATH
