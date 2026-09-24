@@ -63,8 +63,6 @@ engines:
     weight: 1.0
   - name: duckduckgo:
     disabled: false
-    network:
-      impersonate: "firefox"
     weight: 0.8
   - name: brave
     disabled: true
