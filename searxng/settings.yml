@@ -56,34 +56,34 @@ plugins:
 
 engines:
   - name: google
-    disabled: false
+    disabled: true
     weight: 1.0
   - name: google news
-    disabled: false
+    disabled: true
     weight: 1.0
   - name: duckduckgo
     disabled: false
     weight: 0.8
   - name: brave
-    disabled: false
+    disabled: true
     weight: 0.7
   - name: bing
-    disabled: false
+    disabled: true
     weight: 0.5
   - name: bing news
-    disabled: false
+    disabled: true
     weight: 0.8
   - name: wikipedia
     disabled: false
     weight: 1.0
   - name: reddit
-    disabled: false
+    disabled: true
     weight: 0.7
   - name: github
-    disabled: false
+    disabled: true
     weight: 0.8
   - name: stackoverflow
-    disabled: false
+    disabled: true
     weight: 0.9
 
 
