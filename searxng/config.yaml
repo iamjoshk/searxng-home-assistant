@@ -19,15 +19,15 @@ ports_description:
   8080/tcp: SearXNG web interface and API
 webui: "http://[HOST]:[PORT:8787]"
 options:
-  safe_search: 0
-  enable_google: true
+  safe_search: 2
+  enable_google: false
   enable_duckduckgo: true
-  enable_brave: true
-  enable_bing: true
+  enable_brave: false
+  enable_bing: false
   enable_wikipedia: true
-  enable_reddit: true
-  enable_github: true
-  enable_stackoverflow: true
+  enable_reddit: false
+  enable_github: false
+  enable_stackoverflow: false
 schema:
   safe_search: list(0|1|2)
   enable_google: bool
