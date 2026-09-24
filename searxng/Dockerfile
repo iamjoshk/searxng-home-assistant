@@ -4,8 +4,8 @@ FROM docker.io/searxng/searxng:latest
 COPY settings.yml /etc/searxng/settings.yml
 ENV SEARXNG_SETTINGS_PATH=/etc/searxng/settings.yml
 
-# SearXNG listens on 8080 internally
-EXPOSE 8080
+# SearXNG listens on 8787 internally
+EXPOSE 8787
 
 # Use the base image's default entrypoint; our settings.yml is referenced via SEARXNG_SETTINGS_PATH
 
